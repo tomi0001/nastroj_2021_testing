@@ -23,7 +23,7 @@ class HomeController extends Controller
         print "ddd";
     }
     /**
-     * Show the application dashboard.
+     * Show othe application dashboard.
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
