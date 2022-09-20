@@ -7,6 +7,7 @@
 @include('auth.main')
 
 <br><Br>
+
 <div id="PageLogin">
     <div class="titleUser">LOGOWANIE UŻYTKOWNIKA</div>
     <div class="tableUser">
@@ -17,7 +18,7 @@
                         Twój email
                     </td>
                     <td class="input_lg">
-                        <input type="text" name="email" class="form-control form-control-lg" placeholder="email" value="{{Request::old("email")}}">
+                        <input type="text" name="email" class="form-control form-control-lg" placeholder="email" value="testowy@wp.pl">
 
                     </td>
                 </tr>
@@ -27,7 +28,7 @@
                         Twoje hasło
                     </td>
                     <td class="input_lg">
-                        <input type="password" name="password" class="form-control form-control-lg" placeholder="hasło">
+                        <input type="password" name="password" class="form-control form-control-lg" placeholder="hasło" value="testowe1234">
 
                     </td>
                 </tr>
@@ -39,7 +40,7 @@
 
                 </td>
                 <td align='left'>
-                                           <input class="form-control-lg form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                           <input class="form-control-lg form-check-input" type="checkbox"  name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                 </td>
                 </tr>
 
@@ -64,3 +65,6 @@
     
     </div>
 @endsection
+
+
+

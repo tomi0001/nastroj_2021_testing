@@ -26,7 +26,7 @@
         <link rel="shortcut icon" href="{{ asset('./image/icon.png')}}">
         
 
-        
+    
         
         <script src="{{ asset('./styles/'. config('view.styles') . '/js/pageMain.js')}}"></script>
 
