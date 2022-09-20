@@ -33,7 +33,7 @@ class HomeController extends Controller
             return View("auth.main");
         }
         else if (Auth::User()->type == "user") {
-            return Redirect()->route("users.main");
+            return Redirect()->route("users.main",['year' => 2022,'month' => '09','day' => 20]);
         }
         else {
             return Redirect()->route("doctor.main");
